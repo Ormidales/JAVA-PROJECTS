@@ -1,4 +1,4 @@
-# Mon Projet
+# mon-appli
 
 Ceci est un projet qui utilise la classe App pour afficher "hello world".
 
