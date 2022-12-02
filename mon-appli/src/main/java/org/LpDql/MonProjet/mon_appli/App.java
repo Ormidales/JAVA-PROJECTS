@@ -7,6 +7,6 @@ package org.LpDql.MonProjet.mon_appli;
 public class App 
 {
     public static String helloWorld() {
-        return "hello world";
+        return "oui bonjour";
     }
 }

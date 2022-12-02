@@ -12,7 +12,7 @@ public class AppTest
 	@Test
     public void testHelloWorld() {
         App app = new App();
-        String expected = "hello world";
+        String expected = "oui bonjour";
         String actual = app.helloWorld();
         assertEquals(expected, actual);
     }
