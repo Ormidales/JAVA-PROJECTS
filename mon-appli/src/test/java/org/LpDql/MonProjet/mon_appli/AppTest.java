@@ -1,6 +1,6 @@
 package org.LpDql.MonProjet.mon_appli;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -9,12 +9,11 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+	@Test
+    public void testHelloWorld() {
+        App app = new App();
+        String expected = "hello world";
+        String actual = app.helloWorld();
+        assertEquals(expected, actual);
     }
 }

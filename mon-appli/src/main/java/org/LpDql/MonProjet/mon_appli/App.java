@@ -6,8 +6,7 @@ package org.LpDql.MonProjet.mon_appli;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static String helloWorld() {
+        return "hello world";
     }
 }
