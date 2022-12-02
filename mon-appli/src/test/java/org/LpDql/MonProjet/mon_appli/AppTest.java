@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.mockito.Mockito;
-import static org.junit.Assert.assertEquals; // Importe la méthode assertEquals de la classe Assert
 
 /**
  * Unit test for simple App.
@@ -12,7 +11,7 @@ import static org.junit.Assert.assertEquals; // Importe la méthode assertEquals
 public class AppTest 
 {
 	@Test
-    public void testHelloWorld() {
+    public void testHelloWorldBasique() {
         App app = new App();
         String expected = "oui bonjour";
         String actual = app.helloWorld();
@@ -20,7 +19,7 @@ public class AppTest
     }
 	
 	@Test
-	public void testHelloWorld2(){
+	public void testHelloWorldMock(){
 	    App mock = Mockito.mock(App.class);
 	    Mockito.when(mock.helloWorld()).thenReturn("oui bonjour");
 	    assertEquals("oui bonjour", mock.helloWorld());
