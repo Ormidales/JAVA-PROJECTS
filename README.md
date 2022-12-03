@@ -1,14 +1,9 @@
-# mon-appli
+# JAVA-PROJECTS
 
-Ceci est un projet qui utilise la classe App pour afficher "hello world".
+## Projets disponibles :
+- MoneySimulator [https://github.com/Ormidales/JAVA-PROJECTS/tree/main/MoneySimulator]
+- TicTacToe [https://github.com/Ormidales/JAVA-PROJECTS/tree/main/TicTacToe]
+- mon-appli (PROJET ETUDIANT) [https://github.com/Ormidales/JAVA-PROJECTS/tree/main/mon-appli]
 
-## Classe App
-
-La classe App contient une méthode statique `helloWorld()` qui retourne la chaîne de caractères "hello world".
-
-### Méthode helloWorld()
-
-Pour utiliser la méthode `helloWorld()`, vous pouvez l'appeler de la façon suivante :
-
-String message = App.helloWorld();
-System.out.println(message); // affiche "hello world"
+## Auteur
+- Hugo Doueil (Ormidales) [https://github.com/Ormidales]
