@@ -57,8 +57,26 @@ If you want to contribute to this project, please follow these steps:
 3. Make your changes and commit them to your branch.
 4. Open a pull request from your branch to this repository.
 5. Wait for your changes to be reviewed and merged.
+---
+
+---
+### mon-appli
+The `App` class is a simple Java class that contains a single method called `helloWorld()`. This method returns the string `"oui bonjour"`.
+#### Usage
+To use the `App` class, you can add the following code to your Java program:
+```java
+package org.LpDql.MonProjet.mon_appli;
+public class MyClass {
+    public static void main(String[] args) {
+        App app = new App();
+        System.out.println(app.helloWorld());
+    }
+}
+```
+This will print "oui bonjour" to the console.
 
 ---
 
 ## Auteur :
 - Hugo Doueil (Ormidales) [https://github.com/Ormidales]
+
